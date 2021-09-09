@@ -24,11 +24,13 @@ height: 100%;
 }
 .main-info {
     font-family: LumiosMarker;
-    font-size: 1.98vw;
-    color: #008425;
+    font-size: 2.0vw;
     position: relative;
     width: 28vw;
     height: 195px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .margin-center {
     margin-left: auto;
@@ -37,14 +39,15 @@ height: 100%;
 .main-content {
     text-align: center;
     margin-top: 3%;
+    z-index: -10;
 }
 .absolute {
     position: absolute;
 }
 .main-info__img {
-    left: -41px;
-    width: 120%;
-    top: -39%;
+    left: -76px;
+    width: 132%;
+    top: -46%;
 }
 .main-info__p {
     margin: 0;
@@ -63,4 +66,10 @@ height: 100%;
 .second-layer {
     width: 105%;
     top: 30px;
+}
+.main-logo {
+    width: 725px;
+}
+.main-info__p-green {
+    color: #008425;
 }
