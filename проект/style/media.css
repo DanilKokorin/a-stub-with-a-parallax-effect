@@ -55,18 +55,22 @@
     }
 }
 @media (max-width: 575px) {
+    .main {
+        height: 100%;
+        align-items: center;
+    }
     .main-logo {
-        width: 85%;
-        margin-top: 38%;
+        width: 100%;
+        margin-top: 10%;
     }
     .main-info__img {
-        left: -87px;
-        width: 182%;
-        top: -43%;
+        left: -38px;
+        width: 122%;
+        top: -37%;
     }
     .main-info {
-        width: 48vw;
-        font-size: 4.4vw;
+        width: 80vw;
+        font-size: 7vw;
     }
     .main-info__p {
         top: -33%;

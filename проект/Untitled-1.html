@@ -24,7 +24,11 @@
                     <img class="main-logo" src="img/logo.png" loading="lazy"/>
                 </picture> 
                 <div class="main-info margin-center">
-                    <img class="main-info__img absolute" src="img/main-fon.svg" alt="" loading="lazy">
+                    <picture>
+                        <source srcset="img/main-fon-media.svg" media="(max-width: 577px)">
+                        <img class="main-info__img absolute" src="img/main-fon.svg"  loading="lazy"/>
+                    </picture> 
+                    <!-- <img class="main-info__img absolute" src="img/main-fon.svg" alt="" loading="lazy"> -->
                     <div class="main-info__p absolute">
                         <div class="main-info__p-green">Растительная альтернатива<br> всем молочным продуктам.</div>
                         <div>Уже в магазине, Скоро на сайте!</div>
