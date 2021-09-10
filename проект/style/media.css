@@ -20,19 +20,19 @@
 }
 @media (min-width: 999px) and (max-width: 1199px) {
     .main-logo {
-        width: 750px;
+        width: 90%;
     }
     .main-info__img {
-        width: 154%;
-        left: -150px;
-        top: -54%;
+        width: 125%;
+        left: -58px;
+        top: -57%;
     }
     .main {
         height: 100%;
         align-items: center;
     }
     .main-info {
-        font-size: 4.2vw;
+        font-size: 3.2vw;
         width: 46vw;
     }
     .main-info__p {
@@ -70,7 +70,8 @@
 @media (min-width: 576px) and (max-width: 767px) {
     .main-logo {
         width: 80%;
-        margin-top: 23%;
+        margin-top: 5%;
+        max-width: 500px;
     }
     .main-info {
         font-size: 4vw;
@@ -93,11 +94,13 @@
     .main-logo {
         width: 100%;
         margin-top: 15%;
+        max-width: 350px;
     }
     .main-info__img {
         left: -38px;
         width: 122%;
         top: -37%;
+        max-width: 474px;
     }
     .main-info {
         width: 80vw;
